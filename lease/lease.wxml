@@ -1,0 +1,33 @@
+<view class="container">
+  <view class="topbg">
+ </view>
+
+ <view class="role">
+ </view>
+
+ <view class="user_box1">
+   <view class="username">昵称：
+   </view>
+   <view class="credibility">信誉值：
+   </view>
+ </view>
+
+ <view class="listbg">
+   <view class="list">
+    <view class="card" wx:for="{{5}}"  wx:key="unique">
+      <image src="https://img-community.csdnimg.cn/images/9448d1686a9e4e7380fc6daca7c66475.png" mode=""/>
+      <text>出租人：</text>
+      <text>租借人：</text>
+      <text>租借时间：</text>
+      <view class="status">
+         <text>状态</text>
+      </view>
+    </view>
+   </view>
+ </view>
+
+ <view class="leaseimg">
+  <image src="https://img-community.csdnimg.cn/images/45fd8a8a5146466b95705448e7367842.png" alt=""/>
+ </view>
+
+</view>

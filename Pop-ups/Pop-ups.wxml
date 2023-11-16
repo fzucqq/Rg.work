@@ -1,0 +1,55 @@
+<view class="container">
+  <view class="topbg">
+ </view>
+
+ <view class="role">
+ </view>
+
+ <view class="user_box1">
+   <view class="username">昵称：
+   </view>
+   <view class="credibility">信誉值：
+   </view>
+ </view>
+
+<view class="massges">
+ <view class="icon-small-wrp">
+    <icon class="icon-small" type="cancel" size="23" color="black"></icon>
+ </view>
+ <view class="buyer">
+  <view class="tx">
+   <text>------------ 买家名片 ------------</text>
+  </view>
+  <view class="massge">
+    <text>姓名：</text>
+    <view class="buyername"></view>
+  </view>
+  <view class="massge">
+    <text>联系方式：</text>
+    <view class="buyercontact"></view>
+  </view>
+  <view class="massge">
+    <text>地址信息：</text>
+    <view class="buyeraddress"></view>
+  </view>
+ </view>
+ <view class="seller">
+  <view class="tx">
+   <text>------------ 卖家名片 ------------</text>
+  </view>
+  <view class="massge">
+    <text>姓名：</text>
+    <view class="sellername"></view>
+  </view>
+  <view class="massge">
+    <text>联系方式：</text>
+    <view class="sellercontact"></view>
+  </view>
+  <view class="massge">
+    <text>地址信息：</text>
+    <view class="selleraddress"></view>
+  </view>
+ </view>
+</view>
+
+</view>

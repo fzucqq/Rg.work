@@ -1,0 +1,95 @@
+.container{
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.topbg{
+  width: 100%;
+  height: 200rpx;
+  background-color: #7cc083;
+  border-bottom-right-radius: 20rpx;
+  border-bottom-left-radius: 20rpx;
+  position: absolute;
+  top: 0;
+}
+
+.role{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top:100rpx;
+  left:20rpx
+}
+
+.username{
+  color: white;
+  width: 480rpx;
+  height: 40rpx;
+}
+.credibility{
+  width: 480rpx;
+  height: 40rpx;
+}
+
+.user_box1{
+  position: absolute;
+  left: 220rpx;
+  top: 160rpx;
+  width: 480rpx;
+  height: 80rpx;
+}
+
+.massges{
+  display: flex;
+  flex-direction:column ;
+  justify-content: space-between;
+  position: absolute;
+  border: 1px solid black;
+  width: 600rpx;
+  height: 800rpx;
+  top: 320rpx;
+  border-radius: 20rpx;
+}
+.buyer{
+  width: 600rpx;
+  height: 400rpx;
+  display: flex;
+  flex-direction:column ;
+  justify-content: space-between;
+}
+.seller{
+  width: 600rpx;
+  height: 400rpx;
+  display: flex;
+  flex-direction:column ;
+  justify-content: space-between;
+}
+.tx{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.massge{
+  margin: 20rpx;
+  display: flex;
+}
+
+.massge text{
+  width: 180rpx;
+}
+
+.massge view{
+  text-align: center;
+  width: 420rpx;
+  border: 1px solid black;
+  border-radius: 16rpx;
+}
+
+.icon-small{
+  position: relative;
+  left: 555rpx;
+}

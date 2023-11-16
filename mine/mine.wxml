@@ -1,0 +1,42 @@
+<view class="container">
+
+ <view class="topbg">
+ </view>
+
+ <view class="role" bind:tap="Pop_ups">
+ </view>
+
+  <view class="user_box1">
+   <view class="username">昵称：
+   </view>
+   <view class="credibility">信誉值：
+   </view>
+  </view>
+
+  <view class="items">
+   <view class="item">
+    <image src="https://img-community.csdnimg.cn/images/40e1d1e36f4b4804a88a8d213c166da2.png" alt="" bind:tap="sell"/>
+    <text>出售</text>
+   </view>
+   <view class="item">
+    <image src="https://img-community.csdnimg.cn/images/c0553a0d41724cde9f2b5fc26df55783.png" alt="" bind:tap="donation"/>
+    <text>捐赠</text>
+   </view>
+   <view class="item">
+    <image src="https://img-community.csdnimg.cn/images/a21580e515924413b4f677c0594efbd5.png" alt="" bind:tap="exchange"/>
+    <text>交换</text>
+   </view>
+   <view class="item">
+    <image src="https://img-community.csdnimg.cn/images/45fd8a8a5146466b95705448e7367842.png" alt="" bind:tap="lease"/>
+    <text>租赁</text>
+   </view>
+  </view>
+
+  <view class="tx">
+   <text>排行榜</text>
+  </view>
+
+  <view class="list">
+    
+  </view>
+</view>
